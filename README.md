@@ -11,8 +11,10 @@ Demo
 There's a live demo of the finished project at: https://blabs.herokuapp.com
 
 Installing your PostgreSQL
-### We are going to install it using Homebrew and start/stop the service using lunchy
 ---------------
+
+### We are going to install it using Homebrew and start/stop the service using lunchy
+
 * Install using homebrew
 ```bash
 $ brew install postgresql
@@ -30,7 +32,7 @@ $ cp /usr/local/Cellar/postgresql/[POSTGRE_VERSION]/homebrew.mxcl.postgresql.pli
 ```bash
 $ gem install lunchy
 ```
-* Finally run/stop PostgreSql
+* Finally start/stop PostgreSql
 ```bash
 $ lunchy start postgres
 $ lunchy stop postgres
