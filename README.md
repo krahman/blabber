@@ -12,9 +12,6 @@ There's a live demo of the finished project at: https://blabs.herokuapp.com
 
 Installing your PostgreSQL
 ---------------
-
-### We are going to install it using Homebrew and start/stop the service using lunchy
-
 * Install using homebrew
 ```bash
 $ brew install postgresql
